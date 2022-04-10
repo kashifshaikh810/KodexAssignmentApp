@@ -1,20 +1,15 @@
 import React from 'react';
-import {StyleSheet, View, StatusBar} from 'react-native';
-import CarsList from './components/CarsList/index';
-import Header from './components/Header';
+import {StyleSheet, View, StatusBar, Text} from 'react-native';
+// import CarsList from './components/CarsList/index';
+// import Header from './components/Header';
+
+import Screen from './components/AssignmentAppComponents/Screens/Screen';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <StatusBar translucent backgroundColor="transparent" />
-      <Header />
-      <CarsList />
-      {/* <CartItem
-        name="Modal S"
-        tagline="Order Online For"
-        taglineCTA="Touchless Delivery"
-        image={require('./assets/images/ModelX.jpeg')}
-      /> */}
+      {/* assignment app component  */}
+      <Screen />
     </View>
   );
 };
@@ -25,7 +20,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#ffffff',
-    justifyContent: 'center',
-    alignItems: 'center',
+    // justifyContent: 'center',
+    // alignItems: 'center',
   },
 });
