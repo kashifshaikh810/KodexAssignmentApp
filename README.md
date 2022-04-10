@@ -1,3 +1,2 @@
-# Tesla-App
 # kodexAssignment
 # kodexAssignment
